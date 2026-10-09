@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Артём Некрасов, маркетолог</title>
+  <meta name="description" content="Портфолио маркетолога. Keys To Moscow: медиапродукт с нуля до 43 тысяч подписчиков и чистой прибыли. Colife: 30,1 млн органических просмотров и 629 лидов.">
+  <meta name="theme-color" content="#111110">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Артём Некрасов, маркетолог">
+  <meta property="og:description" content="Нахожу точки роста, запускаю продукты и превращаю внимание в работающую бизнес-модель.">
+  <meta property="og:url" content="https://artemnekras69-code.github.io/portfolio/">
+  <meta property="og:image" content="https://artemnekras69-code.github.io/portfolio/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;700&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/cases.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<!-- логотип-ключ Keys To Moscow: контур из фирменной презентации, цвет задаётся классом -->
+<svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="ktm-key" viewBox="0 0 96.67 100">
+      <path d="M38.33 38.81 0 83.81 3.1 100h20.71l-1.91-10.24h11.2l-1.91-11.19 10.48.48-1.19-10.48 13.09-.71 9.29-10z"/>
+      <path fill-rule="evenodd" d="M66.67 0c16.57 0 30 13.43 30 30s-13.43 30-30 30-30-13.43-30-30 13.43-30 30-30Zm6.66 11.9a6.67 6.67 0 1 0 0 13.34 6.67 6.67 0 0 0 0-13.34Z"/>
+    </symbol>
+    <linearGradient id="ktm-gold" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6da4c"/><stop offset="1" stop-color="#e2932b"/></linearGradient>
+  </defs>
+</svg>
+
+<!-- ============ НАВИГАЦИЯ ============ -->
+<nav class="nav" aria-label="Основная навигация" data-nav>
+  <a class="nav__brand" href="#top">Артём Некрасов</a>
+  <ul class="nav__links">
+    <li><a href="#about">Образование</a></li>
+    <li><a href="#cases">Кейсы</a></li>
+    <li><a href="#skills">Навыки</a></li>
+    <li><a href="#contact">Контакты</a></li>
+  </ul>
+  <button class="nav__burger" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>Меню</button>
+</nav>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню" hidden data-menu>
+  <button class="menu__close" type="button" data-menu-close>Закрыть</button>
+  <ul class="menu__links">
+    <li><a href="#numbers"><span>01</span>Цифры</a></li>
+    <li><a href="#about"><span>02</span>Образование</a></li>
+    <li><a href="#cases"><span>03</span>Кейсы</a></li>
+    <li><a href="#skills"><span>04</span>Навыки</a></li>
+    <li><a href="#contact"><span>05</span>Контакты</a></li>
+  </ul>
+  <a class="menu__tg" href="https://t.me/artyom_nekrasov" target="_blank" rel="noopener">Написать в Telegram ↗</a>
+</div>
+
+<!-- ============ ОБЛОЖКА ============ -->
+<header class="hero" id="top" data-theme="dark">
+  <div class="hero__top">
+    <div class="hero__intro">
+      <p class="eyebrow eyebrow--lime hero__role">Маркетолог</p>
+      <p class="hero__lead">Нахожу точки роста. Запускаю продукты. <span>Превращаю внимание в&nbsp;работающую бизнес-модель.</span></p>
+      <div class="hero__cta">
+        <a class="btn btn--lime" href="#cases">Смотреть кейсы <span class="btn__arrow" aria-hidden="true">↓</span></a>
+        <a class="btn btn--line" href="https://t.me/artyom_nekrasov" target="_blank" rel="noopener">Написать в Telegram</a>
+      </div>
+    </div>
+    <dl class="hero__facts">
+      <div><dt>Опыт</dt><dd>2+ года в digital-продуктах и&nbsp;proptech</dd></div>
+      <div><dt>Город</dt><dd>Москва</dd></div>
+      <div><dt>Формат</dt><dd>офис или гибрид</dd></div>
+    </dl>
+  </div>
+
+  <div class="hero__word">
+    <h1 class="hero__name">
+      <span class="hero__first" data-fit-mobile><span class="fit">Артём</span></span>
+      <span class="hero__last" data-fit><span class="fit">Некрасов</span></span>
+    </h1>
+    <!-- контур фамилии поверх фотографии: буквы читаются и там, где их закрывает портрет -->
+    <span class="hero__last hero__ghost" data-fit aria-hidden="true"><span class="fit">Некрасов</span></span>
+  </div>
+
+  <figure class="hero__photo" data-parallax="0.06">
+    <!-- Замена фото: положите свой файл с прозрачным фоном в assets/img/artem-cutout.webp -->
+    <img src="assets/img/artem-cutout.webp" alt="Артём Некрасов, чёрно-белый портрет" width="1333" height="1529" fetchpriority="high" decoding="async">
+  </figure>
+
+  <p class="sticker hero__sticker" aria-hidden="true">CAC&nbsp;=&nbsp;0</p>
+  <p class="note hero__note" aria-hidden="true">см. кейс 01
+    <svg viewBox="0 0 90 46" aria-hidden="true"><path d="M6 8c22 2 46 10 66 30"/><path d="M58 36l16 4-4-17"/></svg>
+  </p>
+</header>
+
+<main id="main">
+
+<!-- ============ 01. РЕЗУЛЬТАТЫ В ЦИФРАХ ============ -->
+<section class="numbers sec sec--milk" id="numbers" data-theme="light" aria-labelledby="numbers-title">
+  <div class="sec__head">
+    <p class="eyebrow">01 / Результаты</p>
+    <h2 class="h-sec reveal-clip" id="numbers-title">Результаты в&nbsp;<mark>цифрах</mark></h2>
+  </div>
+
+  <ol class="numbers__list">
+    <li class="num reveal">
+      <p class="num__tag">Keys To Moscow</p>
+      <p class="num__value"><span data-count="43" data-suffix="K+">43K+</span></p>
+      <p class="num__text">подписчиков основного канала. С&nbsp;нуля, без бюджета на&nbsp;продвижение.</p>
+    </li>
+    <li class="num reveal">
+      <p class="num__tag">Colife</p>
+      <p class="num__value"><span data-count="30.1" data-decimals="1">30,1</span><small>млн</small></p>
+      <p class="num__text">органических просмотров. Без бюджета на&nbsp;продвижение.</p>
+    </li>
+    <li class="num num--marked reveal">
+      <p class="num__tag">Colife</p>
+      <p class="num__value"><span data-count="629">629</span></p>
+      <p class="num__text">квалифицированных лидов через воронки и&nbsp;лид-магниты.</p>
+    </li>
+    <li class="num reveal">
+      <p class="num__tag">Keys To Moscow</p>
+      <p class="num__value"><span data-count="11">11</span><small>человек</small></p>
+      <p class="num__text">в&nbsp;команде, которую я&nbsp;собрал и&nbsp;которой управляю.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ 02. ОБРАЗОВАНИЕ ============ -->
+<section class="about sec sec--dark" id="about" data-theme="dark" aria-labelledby="about-title">
+  <div class="about__main">
+    <p class="eyebrow eyebrow--lime">02 / Образование</p>
+    <h2 class="about__title reveal-clip" id="about-title">Финансовый университет при&nbsp;Правительстве&nbsp;РФ</h2>
+    <ol class="edu__list">
+      <li class="reveal"><span>2026</span><b>Магистратура с&nbsp;отличием</b><em>Цифровое право (юриспруденция и&nbsp;бизнес-информатика)</em></li>
+      <li class="reveal"><span>2026</span><b>Профессиональный курс</b><em>Юрист в&nbsp;области интеллектуальной собственности</em></li>
+      <li class="reveal"><span>2024</span><b>Бакалавриат</b><em>Юриспруденция</em></li>
+    </ol>
+    <p class="about__note reveal">Юридическое образование помогает быстро разбираться в&nbsp;цифровых продуктах и&nbsp;требованиях рекламного законодательства.</p>
+  </div>
+
+  <figure class="about__photo reveal">
+    <!-- Замена фото: assets/img/artem-diploma.webp, обычный прямоугольный кадр, пропорции 4:5 -->
+    <img src="assets/img/artem-diploma.webp" alt="Артём Некрасов с дипломом Финансового университета" width="890" height="1112" loading="lazy" decoding="async">
+    <figcaption><b>Красный диплом</b><span>Магистратура, цифровое право</span></figcaption>
+  </figure>
+</section>
+
+<!-- ============ 03. КЕЙСЫ ============ -->
+<div id="cases" data-cases>
+
+<section class="cases-intro sec sec--milk" data-theme="light" aria-labelledby="cases-title">
+  <p class="eyebrow">03 / Основные кейсы</p>
+  <h2 class="cases-intro__title reveal-clip" id="cases-title" data-fit data-fit-max="0.66"><span class="fit">Кейсы</span></h2>
+  <ol class="cases-intro__list">
+    <li class="reveal"><a href="#case-ktm"><span class="idx">01</span><span class="name">Keys To Moscow</span><span class="what">Медиапродукт в&nbsp;аренде жилья: с&nbsp;нуля до&nbsp;43 тысяч подписчиков и&nbsp;чистой прибыли</span><span class="go" aria-hidden="true">↓</span></a></li>
+    <li class="reveal"><a href="#case-colife"><span class="idx">02</span><span class="name">Colife</span><span class="what">Контент-маркетинг трёх суббрендов: 30,1&nbsp;млн просмотров и&nbsp;629 лидов</span><span class="go" aria-hidden="true">↓</span></a></li>
+    <li class="reveal"><a href="#case-bot"><span class="idx">03</span><span class="name">Telegram-бот</span><span class="what">Подписочный продукт в&nbsp;экосистеме Keys To Moscow: 5&nbsp;000+ пользователей</span><span class="go" aria-hidden="true">↓</span></a></li>
+  </ol>
+</section>
+
+<!-- ---------- КЕЙС 01. KEYS TO MOSCOW ---------- -->
+<article class="case case-ktm sec sec--dark" id="case-ktm" data-theme="dark" data-case="01" aria-labelledby="ktm-title">
+  <header class="case__head">
+    <p class="eyebrow eyebrow--lime">Кейс 01 / 03 · Медиапродукт в&nbsp;аренде недвижимости</p>
+    <h3 class="case__title reveal-clip" id="ktm-title" data-fit><span class="fit">Keys <em>To</em> Moscow</span></h3>
+  </header>
+
+  <dl class="case__meta reveal">
+    <div><dt>Моя роль</dt><dd>Основатель</dd></div>
+    <div><dt>Период</dt><dd>с&nbsp;июня 2024</dd></div>
+    <div><dt>Формат</dt><dd>Сеть из&nbsp;четырёх Telegram-каналов</dd></div>
+    <div><dt>Проект</dt><dd><a class="link" href="https://t.me/keystomoscow" target="_blank" rel="noopener">t.me/keystomoscow ↗</a></dd></div>
+  </dl>
+
+  <ul class="net" aria-label="Каналы сети Keys To Moscow">
+    <li class="net__item net__item--main reveal">
+      <span class="ava"><svg class="key key--lime" viewBox="0 0 96.67 100" aria-hidden="true"><use href="#ktm-key"/></svg></span>
+      <span class="net__txt"><b>Keys To Moscow</b><i>Москва · 43&nbsp;222 подписчика</i></span>
+    </li>
+    <li class="net__item reveal">
+      <span class="ava"><svg class="key key--gold" viewBox="0 0 96.67 100" aria-hidden="true"><use href="#ktm-key"/></svg></span>
+      <span class="net__txt"><b>Keys To Moscow Premium</b><i>премиум-сегмент</i></span>
+    </li>
+    <li class="net__item reveal">
+      <span class="ava"><svg class="key key--violet" viewBox="0 0 96.67 100" aria-hidden="true"><use href="#ktm-key"/></svg></span>
+      <span class="net__txt"><b>Keys To Moscow Region</b><i>Подмосковье</i></span>
+    </li>
+    <li class="net__item reveal">
+      <span class="ava"><svg class="key key--white" viewBox="0 0 96.67 100" aria-hidden="true"><use href="#ktm-key"/></svg></span>
+      <span class="net__txt"><b>Keys To SPB</b><i>Санкт-Петербург</i></span>
+    </li>
+  </ul>
+
+  <div class="case__duo">
+    <div class="reveal">
+      <h4 class="case__label">Задача</h4>
+      <p class="case__big">Найти незакрытую потребность на&nbsp;рынке аренды и&nbsp;построить на&nbsp;ней работающую модель.</p>
+    </div>
+    <div class="reveal">
+      <h4 class="case__label">Возможность</h4>
+      <p class="case__big">Незакрытая потребность рынка аренды: поиск жилья без комиссии.</p>
+    </div>
+  </div>
+
+  <div class="flow" aria-labelledby="ktm-flow-title">
+    <h4 class="case__label" id="ktm-flow-title">Стратегия</h4>
+    <ol class="flow__list">
+      <li class="flow__step reveal">
+        <span class="flow__n">01</span>
+        <p class="flow__k">Потребность</p>
+        <p class="flow__t">Жильё без комиссии</p>
+        <p class="flow__d">Незакрытая потребность рынка аренды.</p>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__n">02</span>
+        <p class="flow__k">Продукт</p>
+        <p class="flow__t">Сеть Telegram-каналов</p>
+        <p class="flow__d">Арендаторы получают объявления бесплатно. Собственники и&nbsp;партнёры платят за&nbsp;размещение.</p>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__n">03</span>
+        <p class="flow__k">Привлечение</p>
+        <p class="flow__t">Короткие видео → Telegram</p>
+        <p class="flow__d">Органическая связка коротких видео и&nbsp;Telegram. CAC&nbsp;=&nbsp;0.</p>
+      </li>
+      <li class="flow__step reveal">
+        <span class="flow__n">04</span>
+        <p class="flow__k">Монетизация</p>
+        <p class="flow__t">Три источника дохода</p>
+        <p class="flow__d">CPA-партнёрство с&nbsp;Яндекс Арендой, платные размещения от&nbsp;собственников, рекламные интеграции.</p>
+      </li>
+    </ol>
+  </div>
+
+  <div class="case__cols">
+    <div class="case__did">
+      <h4 class="case__label">Что я&nbsp;сделал</h4>
+      <ol class="did">
+        <li class="reveal">Разработал позиционирование и&nbsp;контент-стратегию сети каналов.</li>
+        <li class="reveal">Построил воронку привлечения через соцсети.</li>
+        <li class="reveal">Спроектировал модель монетизации, вёл переговоры с&nbsp;партнёрами и&nbsp;рекламодателями, включая CPA-партнёрство с&nbsp;Яндекс Арендой.</li>
+        <li class="reveal">Запустил подписочный продукт (Telegram-бот).</li>
+        <li class="reveal">Вывел продукт на&nbsp;новый рынок (Санкт-Петербург), адаптировал связку каналов под местную аудиторию.</li>
+        <li class="reveal">Собрал команду из&nbsp;11 человек (продюсеры, монтажёры, операторы, актёры, администраторы), выстроил продакшен от&nbsp;сценария до&nbsp;публикации.</li>
+        <li class="reveal">Отслеживал охваты, ER, конверсии и&nbsp;удержание, тестировал контентные гипотезы и&nbsp;масштабировал работающие форматы.</li>
+        <li class="reveal">Сопровождал рекламу юридически: договоры с&nbsp;рекламодателями, маркировка через ОРД.</li>
+      </ol>
+    </div>
+
+    <div class="case__res">
+      <h4 class="case__label">Результаты</h4>
+      <ul class="res">
+        <li class="reveal"><b><span data-count="43" data-suffix="K">43K</span></b><span>подписчиков основного канала с&nbsp;нуля. Без бюджета на&nbsp;продвижение, CAC&nbsp;=&nbsp;0.</span></li>
+        <li class="reveal res--text"><b>Чистая прибыль<svg class="scribble" viewBox="0 0 300 90" preserveAspectRatio="none" aria-hidden="true"><path d="M18 50C22 22 96 8 170 10c70 2 122 18 116 42-6 24-84 34-160 30C56 78 4 68 16 40"/></svg></b><span>за&nbsp;счёт трёх источников: CPA-партнёрство, платные размещения от&nbsp;собственников, рекламные интеграции.</span></li>
+        <li class="reveal"><b><span data-count="5" data-suffix="K+">5K+</span></b><span>пользователей в&nbsp;подписочном Telegram-боте.</span></li>
+        <li class="reveal"><b>+3</b><span>направления: Подмосковье, премиум-сегмент, Санкт-Петербург.</span></li>
+      </ul>
+      <p class="case__fine reveal">Охват постов в&nbsp;сутки на&nbsp;потолке ниши: около 2&nbsp;000, ER&nbsp;4,5%.</p>
+    </div>
+  </div>
+
+  <div class="takeaways">
+    <h4 class="case__label">Выводы</h4>
+    <ul>
+      <li class="reveal">Органического трафика достаточно для роста, если продукт закрывает понятную потребность.</li>
+      <li class="reveal">Монетизацию стоит строить на&nbsp;нескольких источниках: к&nbsp;прибыли проект пришёл на&nbsp;трёх.</li>
+      <li class="reveal">Регулярный контент требует процесса: команда и&nbsp;продакшен от&nbsp;сценария до&nbsp;публикации.</li>
+    </ul>
+  </div>
+
+  <a class="case__next" href="#case-colife"><span>Следующий кейс</span><strong>Colife</strong><i aria-hidden="true">→</i></a>
+</article>
+
+<!-- ---------- КЕЙС 02. COLIFE ---------- -->
+<article class="case case-colife sec sec--milk" id="case-colife" data-theme="light" data-case="02" aria-labelledby="colife-title">
+  <header class="case__head case-colife__head">
+    <div>
+      <p class="eyebrow">Кейс 02 / 03 · Международная сеть коливингов</p>
+      <h3 class="case__title reveal-clip" id="colife-title" data-fit><span class="fit">Colife</span></h3>
+    </div>
+    <dl class="case__meta case__meta--stack reveal">
+      <div><dt>Моя роль</dt><dd>Контент-маркетолог</dd></div>
+      <div><dt>Период</dt><dd>март 2025&nbsp;– май 2026</dd></div>
+      <div><dt>Город</dt><dd>Москва</dd></div>
+    </dl>
+  </header>
+
+  <div class="scale" aria-label="Масштаб работы">
+    <p class="scale__item reveal"><b>3</b><span>суббренда</span></p>
+    <i aria-hidden="true">×</i>
+    <p class="scale__item reveal"><b>5</b><span>каналов</span></p>
+    <i aria-hidden="true">×</i>
+    <p class="scale__item reveal"><b>4</b><span>платформы</span></p>
+    <p class="scale__note note reveal" aria-hidden="true">и&nbsp;всё это параллельно</p>
+  </div>
+
+  <div class="case__duo">
+    <div class="reveal">
+      <h4 class="case__label">Задача</h4>
+      <p class="case__big">Контент-маркетинг трёх суббрендов на&nbsp;пяти каналах и&nbsp;четырёх платформах.</p>
+    </div>
+    <div class="reveal">
+      <h4 class="case__label">Подход</h4>
+      <p class="case__big">Отдельное позиционирование и&nbsp;контент-стратегия для каждого суббренда. Воронки и&nbsp;лид-магниты для привлечения целевой аудитории.</p>
+    </div>
+  </div>
+
+  <div class="lanes" aria-labelledby="colife-lanes-title">
+    <h4 class="case__label" id="colife-lanes-title">Стратегия</h4>
+    <div class="lanes__grid">
+      <ul class="lanes__brands">
+        <!-- Названия суббрендов можно вписать вместо «Суббренд 01–03» -->
+        <li class="reveal"><b>Суббренд 01</b><span>своё позиционирование · своя стратегия</span></li>
+        <li class="reveal"><b>Суббренд 02</b><span>своё позиционирование · своя стратегия</span></li>
+        <li class="reveal"><b>Суббренд 03</b><span>своё позиционирование · своя стратегия</span></li>
+      </ul>
+      <div class="lanes__arrow" aria-hidden="true"></div>
+      <div class="lanes__mid reveal">
+        <b>Органический контент</b>
+        <span>5 каналов на&nbsp;4 платформах, от&nbsp;Telegram до&nbsp;площадок вертикального видео</span>
+      </div>
+      <div class="lanes__arrow" aria-hidden="true"></div>
+      <div class="lanes__mid reveal">
+        <b>Воронки и&nbsp;лид-магниты</b>
+        <span>для привлечения целевой аудитории</span>
+      </div>
+      <div class="lanes__arrow" aria-hidden="true"></div>
+      <div class="lanes__out reveal">
+        <b><span data-count="629">629</span></b>
+        <span>квалифицированных лидов</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="case__cols case__cols--flip">
+    <div class="case__res">
+      <h4 class="case__label">Результаты</h4>
+      <p class="mega reveal"><b><span data-count="30.1" data-decimals="1">30,1</span></b><small>млн</small></p>
+      <p class="mega__cap reveal">органических просмотров без бюджета на&nbsp;продвижение</p>
+
+      <div class="charts">
+        <figure class="peaks reveal">
+          <figcaption>Два канала, запущенных с&nbsp;нуля: пик просмотров в&nbsp;месяц</figcaption>
+          <div class="peaks__bars">
+            <div class="peaks__bar" style="--h:78%"><b>1,88&nbsp;млн</b><span>канал&nbsp;1</span></div>
+            <div class="peaks__bar" style="--h:100%"><b>2,41&nbsp;млн</b><span>канал&nbsp;2</span></div>
+          </div>
+        </figure>
+
+        <figure class="plan reveal">
+          <figcaption>Выполнение месячного плана в&nbsp;среднем</figcaption>
+          <div class="plan__track">
+            <div class="plan__fill"><b>113%</b></div>
+            <span class="plan__mark">план 100%</span>
+          </div>
+          <p class="note plan__note" aria-hidden="true">вышел за&nbsp;рамку</p>
+        </figure>
+
+        <p class="plus reveal"><b><span data-count="7" data-suffix="K+">7K+</span></b><span>подписчиков привлечено в&nbsp;соцсети бренда с&nbsp;нуля</span></p>
+      </div>
+    </div>
+
+    <div class="case__did">
+      <h4 class="case__label">Что я&nbsp;сделал</h4>
+      <ol class="did">
+        <li class="reveal">Разработал и&nbsp;реализовал контент-стратегию по&nbsp;трём направлениям параллельно, с&nbsp;отдельным позиционированием для каждого суббренда.</li>
+        <li class="reveal">Запустил с&nbsp;нуля новые каналы бренда.</li>
+        <li class="reveal">Построил маркетинговые воронки и&nbsp;лид-магниты для привлечения целевой аудитории.</li>
+        <li class="reveal">Вёл все соцсети бренда, от&nbsp;Telegram до&nbsp;площадок вертикального контента: контент-план, сценарии, тексты, публикации.</li>
+        <li class="reveal">Анализировал эффективность (охваты, вовлечённость, лиды, выполнение KPI) и&nbsp;корректировал стратегию по&nbsp;результатам.</li>
+        <li class="reveal">Готовил регулярную отчётность для руководства: план/факт, выводы, рекомендации.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="takeaways">
+    <h4 class="case__label">Выводы</h4>
+    <ul>
+      <li class="reveal">Просмотры дают лиды, когда за&nbsp;контентом стоят воронка и&nbsp;лид-магнит.</li>
+      <li class="reveal">Три суббренда можно вести параллельно, если у&nbsp;каждого своё позиционирование и&nbsp;свои KPI.</li>
+      <li class="reveal">Отчёт план/факт показывает, какие форматы усиливать, а&nbsp;какие менять.</li>
+    </ul>
+  </div>
+
+  <a class="case__next" href="#case-bot"><span>Следующий кейс</span><strong>Telegram-бот</strong><i aria-hidden="true">→</i></a>
+</article>
+
+<!-- ---------- КЕЙС 03. TELEGRAM-БОТ ---------- -->
+<article class="case case-bot sec sec--dark" id="case-bot" data-theme="dark" data-case="03" aria-labelledby="bot-title">
+  <header class="case__head">
+    <p class="eyebrow eyebrow--lime">Кейс 03 / 03 · Развитие продукта</p>
+    <h3 class="case__title reveal-clip" id="bot-title">Telegram-бот</h3>
+    <p class="case-bot__sub reveal">Подписочный продукт в&nbsp;экосистеме Keys To Moscow</p>
+  </header>
+
+  <div class="bot__grid">
+    <div class="bot__left">
+      <dl class="case__meta case__meta--stack reveal">
+        <div><dt>Моя роль</dt><dd>Основатель</dd></div>
+        <div><dt>Задача</dt><dd>Запустить подписочный продукт в&nbsp;экосистеме Keys To Moscow</dd></div>
+      </dl>
+
+      <p class="bot__num reveal"><b><span data-count="5000" data-suffix="+" data-group="1">5&nbsp;000+</span></b><span>привлечённых пользователей</span></p>
+    </div>
+
+    <!--
+      СПЕЦИФИКАЦИЯ ПРОДУКТА: редактируемые поля.
+      Заполненные строки видны всегда.
+      Строки с атрибутом data-empty скрыты на сайте и показываются только в режиме черновика:
+      откройте страницу с ?draft в адресе (например index.html?draft).
+      Чтобы опубликовать поле: впишите текст в <p class="spec__text"> и удалите атрибут data-empty.
+    -->
+    <div class="spec reveal" aria-labelledby="spec-title">
+      <div class="spec__bar"><span id="spec-title">Спецификация продукта</span><span>v.1</span></div>
+
+      <div class="spec__row" data-empty>
+        <h4>Проблема</h4>
+        <p class="spec__text"></p>
+        <p class="spec__hint">Дополнить: какую задачу пользователя бот решает лучше, чем канал?</p>
+      </div>
+      <div class="spec__row" data-empty>
+        <h4>Аудитория</h4>
+        <p class="spec__text"></p>
+        <p class="spec__hint">Дополнить: кто пользуется ботом (арендаторы, собственники, оба сегмента)?</p>
+      </div>
+      <div class="spec__row">
+        <h4>Решение</h4>
+        <p class="spec__text">Подписочный Telegram-бот в&nbsp;экосистеме Keys To Moscow.</p>
+      </div>
+      <div class="spec__row" data-empty>
+        <h4>Привлечение</h4>
+        <p class="spec__text"></p>
+        <p class="spec__hint">Дополнить: откуда приходят пользователи (каналы сети, короткие видео, партнёры)?</p>
+      </div>
+      <div class="spec__row">
+        <h4>Монетизация</h4>
+        <p class="spec__text">Подписочная модель.</p>
+        <p class="spec__hint" data-draft-only>Можно дополнить: тарифы и&nbsp;механика подписки.</p>
+      </div>
+      <div class="spec__row">
+        <h4>Результат</h4>
+        <p class="spec__text">Более 5&nbsp;000 привлечённых пользователей.</p>
+        <p class="spec__hint" data-draft-only>Можно дополнить: конверсия в&nbsp;оплату и&nbsp;удержание. Только подтверждённые цифры.</p>
+      </div>
+    </div>
+  </div>
+
+  <a class="case__next" href="#irony"><span>Дальше</span><strong>Маркетинг в&nbsp;жизни</strong><i aria-hidden="true">→</i></a>
+</article>
+
+<!-- переключатель кейсов -->
+<nav class="casebar" aria-label="Переход между кейсами" data-casebar hidden>
+  <a href="#case-ktm" data-case-link="01"><span>01</span><b>Keys To Moscow</b></a>
+  <a href="#case-colife" data-case-link="02"><span>02</span><b>Colife</b></a>
+  <a href="#case-bot" data-case-link="03"><span>03</span><b>Telegram-бот</b></a>
+</nav>
+
+</div><!-- /#cases -->
+
+<!-- ============ 04. ИРОНИЯ ============ -->
+<section class="irony sec sec--milk" id="irony" data-theme="light" aria-labelledby="irony-title">
+  <div class="sec__head">
+    <p class="eyebrow">04 / Ирония и&nbsp;реальность</p>
+    <h2 class="h-sec irony__title reveal-clip" id="irony-title">Маркетинг на&nbsp;слайдах <span class="slash">/</span> <span class="irony__life">Маркетинг в&nbsp;жизни</span></h2>
+    <p class="sec__aside reveal">Три эпизода. Нажмите, чтобы увидеть вторую версию.</p>
+  </div>
+
+  <div class="gags">
+    <!-- Эпизод 1 -->
+    <article class="gag reveal" data-gag>
+      <header class="gag__top"><span>Эпизод 01</span><h3>Гипотеза</h3></header>
+      <div class="gag__stage">
+        <div class="gag__face gag__face--slide">
+          <p class="gag__cap">Слайд 12 · прогноз</p>
+          <p class="gag__h">Запускаем и&nbsp;растём</p>
+          <svg class="gag__chart" viewBox="0 0 320 150" aria-hidden="true">
+            <path class="axis" d="M10 10v130h300"/>
+            <path class="up" d="M14 132c60-4 120-18 170-52s90-58 122-66"/>
+            <circle class="dot" cx="306" cy="14" r="6"/>
+          </svg>
+        </div>
+        <div class="gag__face gag__face--life">
+          <p class="gag__cap">Третий день после запуска</p>
+          <p class="gag__h">Реальность</p>
+          <svg class="gag__chart" viewBox="0 0 320 150" aria-hidden="true">
+            <path class="axis" d="M10 10v130h300"/>
+            <path class="flat" d="M14 128c20-3 30 4 52 1s34-5 58-1 40 3 62-1 44 4 64 0 34-3 56-1"/>
+          </svg>
+          <p class="note gag__note">Не&nbsp;подтвердилась. Следующая.</p>
+        </div>
+      </div>
+      <button class="gag__toggle" type="button" aria-pressed="false"><span class="to-life">А&nbsp;в&nbsp;жизни?</span><span class="to-slide">Вернуть на&nbsp;слайд</span></button>
+    </article>
+
+    <!-- Эпизод 2 -->
+    <article class="gag reveal" data-gag>
+      <header class="gag__top"><span>Эпизод 02</span><h3>Миллион просмотров</h3></header>
+      <div class="gag__stage">
+        <div class="gag__face gag__face--slide">
+          <p class="gag__cap">Слайд 7 · все аплодируют</p>
+          <p class="gag__mega">1&nbsp;000&nbsp;000</p>
+          <p class="gag__h">просмотров</p>
+        </div>
+        <div class="gag__face gag__face--life">
+          <p class="gag__cap">Тот&nbsp;же ролик в&nbsp;отчёте</p>
+          <ul class="gag__funnel">
+            <li style="--w:100%"><b>1&nbsp;000&nbsp;000</b> просмотров</li>
+            <li style="--w:34%"><b>40</b> переходов</li>
+            <li style="--w:12%"><b>0</b> заявок</li>
+          </ul>
+          <p class="note gag__note">Охват ≠ лид ≠ клиент. Считаю заявки.</p>
+          <p class="gag__fine">Цифры условные.</p>
+        </div>
+      </div>
+      <button class="gag__toggle" type="button" aria-pressed="false"><span class="to-life">А&nbsp;в&nbsp;жизни?</span><span class="to-slide">Вернуть на&nbsp;слайд</span></button>
+    </article>
+
+    <!-- Эпизод 3 -->
+    <article class="gag reveal" data-gag>
+      <header class="gag__top"><span>Эпизод 03</span><h3>A/B-тест</h3></header>
+      <div class="gag__stage">
+        <div class="gag__face gag__face--slide">
+          <p class="gag__cap">Вариант А · три недели работы</p>
+          <p class="gag__fancy" aria-label="Кнопка с текстом «Начать путь к мечте»"><span>✦ Начать путь к&nbsp;мечте ✦</span></p>
+          <p class="gag__h">Наш фаворит</p>
+        </div>
+        <div class="gag__face gag__face--life">
+          <p class="gag__cap">Вариант Б · сделан за&nbsp;вечер</p>
+          <p class="gag__plain" aria-label="Кнопка с текстом «Оставить заявку»"><span>Оставить заявку</span></p>
+          <p class="gag__stamp">победил</p>
+          <p class="note gag__note">Данные не&nbsp;обязаны уважать мой вкус.</p>
+        </div>
+      </div>
+      <button class="gag__toggle" type="button" aria-pressed="false"><span class="to-life">А&nbsp;в&nbsp;жизни?</span><span class="to-slide">Вернуть на&nbsp;слайд</span></button>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 05. НАВЫКИ ============ -->
+<section class="skills sec sec--dark" id="skills" data-theme="dark" aria-labelledby="skills-title">
+  <div class="sec__head">
+    <p class="eyebrow eyebrow--lime">05 / Навыки и&nbsp;инструменты</p>
+    <h2 class="h-sec reveal-clip" id="skills-title">Навыки</h2>
+  </div>
+
+  <ul class="skillset">
+    <li class="skill reveal">
+      <h3>Стратегия</h3>
+      <p>Продуктовый маркетинг <i>/</i> go-to-market <i>/</i> позиционирование <i>/</i> сегментация аудитории</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Рост</h3>
+      <p>Воронки привлечения <i>/</i> генерация лидов <i>/</i> контент-стратегия</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Аналитика</h3>
+      <p>Маркетинговая аналитика <i>/</i> проверка гипотез <i>/</i> A/B-тестирование</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Монетизация</h3>
+      <p>Модели монетизации <i>/</i> CPA-партнёрства</p>
+    </li>
+    <li class="skill reveal">
+      <h3>Управление</h3>
+      <p>Управление командой <i>/</i> рекламное законодательство и&nbsp;compliance</p>
+    </li>
+  </ul>
+
+  <div class="tools reveal">
+    <h3 class="eyebrow">Инструменты</h3>
+    <ul>
+      <li>Telegram и&nbsp;Telegram-боты</li>
+      <li>Instagram Reels</li>
+      <li>TikTok</li>
+      <li>YouTube и&nbsp;Shorts</li>
+      <li>Google Analytics</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 06. КОНТАКТЫ ============ -->
+<section class="contact sec sec--lime" id="contact" data-theme="lime" aria-labelledby="contact-title">
+  <p class="eyebrow">06 / Контакты</p>
+  <h2 class="contact__title reveal-clip" id="contact-title" data-fit><span class="fit">Буду рад<br>сотрудничеству</span></h2>
+  <div class="contact__row">
+    <p class="contact__lead reveal">Напишите в&nbsp;Telegram или на&nbsp;почту.</p>
+    <div class="contact__actions reveal">
+      <a class="btn btn--ink btn--xl" href="https://t.me/artyom_nekrasov" target="_blank" rel="noopener">Написать в&nbsp;Telegram <span class="btn__arrow" aria-hidden="true">↗</span></a>
+      <a class="btn btn--ink-line btn--xl" href="mailto:artem.nekras@mail.ru">Отправить письмо</a>
+    </div>
+  </div>
+
+  <dl class="contact__list">
+    <div><dt>Telegram</dt><dd><a class="link" href="https://t.me/artyom_nekrasov" target="_blank" rel="noopener">@artyom_nekrasov</a></dd></div>
+    <div><dt>Почта</dt><dd><a class="link" href="mailto:artem.nekras@mail.ru">artem.nekras@mail.ru</a> <button class="copy" type="button" data-copy="artem.nekras@mail.ru">Скопировать</button></dd></div>
+    <div><dt>Телефон</dt><dd><a class="link" href="tel:+79997259798">+7 999 725-97-98</a></dd></div>
+    <div><dt>Резюме</dt><dd><a class="link" href="assets/cv/Artem_Nekrasov_CV.pdf" target="_blank" rel="noopener">CV на&nbsp;английском, PDF ↗</a></dd></div>
+  </dl>
+  <p class="copy__status" role="status" aria-live="polite" data-copy-status></p>
+</section>
+
+</main>
+
+<footer class="foot" data-theme="dark">
+  <p>© 2026 Артём Некрасов. Маркетолог, Москва.</p>
+  <button class="foot__motion" type="button" aria-pressed="false" data-motion-toggle>Анимации: включены</button>
+  <a href="#top">Наверх ↑</a>
+</footer>
+
+<p class="draftbar" data-draftbar hidden>Режим черновика: показаны поля, которые нужно дополнить. Уберите ?draft из&nbsp;адреса, чтобы увидеть сайт глазами посетителя.</p>
+
+<noscript><style>.reveal,.reveal-clip{opacity:1!important;transform:none!important;clip-path:none!important}</style></noscript>
+<script src="js/app.js" defer></script>
+</body>
+</html>
